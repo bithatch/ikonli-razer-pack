@@ -1,0 +1,1084 @@
+@font-face {
+  font-family: 'Razer-Icons';
+  src:  url('fonts/Razer-Icons.eot?ymc99q');
+  src:  url('fonts/Razer-Icons.eot?ymc99q#iefix') format('embedded-opentype'),
+    url('fonts/Razer-Icons.ttf?ymc99q') format('truetype'),
+    url('fonts/Razer-Icons.woff?ymc99q') format('woff'),
+    url('fonts/Razer-Icons.svg?ymc99q#Razer-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="razer-"], [class*=" razer-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Razer-Icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.razer-right .path1:before {
+  content: "\e9ab";
+  color: rgb(26, 26, 26);
+}
+.razer-right .path2:before {
+  content: "\e9ac";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-right .path3:before {
+  content: "\e9ad";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-right .path4:before {
+  content: "\e9ae";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-right .path5:before {
+  content: "\e9af";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-right .path6:before {
+  content: "\e9b0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-right .path7:before {
+  content: "\e9b1";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-right .path8:before {
+  content: "\e9b2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-scroll .path1:before {
+  content: "\e9b3";
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-scroll .path2:before {
+  content: "\e9b4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-scroll .path3:before {
+  content: "\e9b5";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-scroll .path4:before {
+  content: "\e9b6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-profile_leds .path1:before {
+  content: "\e9b7";
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-profile_leds .path2:before {
+  content: "\e9b8";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-profile_leds .path3:before {
+  content: "\e9b9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.razer-profile_leds .path4:before {
+  content: "\e9ba";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+.razer-logo .path1:before {
+  content: "\e9bb";
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-logo .path2:before {
+  content: "\e9bc";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5090;
+}
+.razer-logo .path3:before {
+  content: "\e9bd";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-logo .path4:before {
+  content: "\e9be";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-left .path1:before {
+  content: "\e9bf";
+  color: rgb(0, 0, 0);
+}
+.razer-left .path2:before {
+  content: "\e9c0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-left .path3:before {
+  content: "\e9c1";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-left .path4:before {
+  content: "\e9c2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-left .path5:before {
+  content: "\e9c3";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-left .path6:before {
+  content: "\e9c4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-left .path7:before {
+  content: "\e9c5";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-left .path8:before {
+  content: "\e9c6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-fully_charged .path1:before {
+  content: "\e9c7";
+  color: rgb(0, 0, 0);
+}
+.razer-fully_charged .path2:before {
+  content: "\e9c8";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2511;
+}
+.razer-fully_charged .path3:before {
+  content: "\e9c9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2511;
+}
+.razer-fully_charged .path4:before {
+  content: "\e9ca";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2511;
+}
+.razer-fully_charged .path5:before {
+  content: "\e9cb";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2511;
+}
+.razer-fully_charged .path6:before {
+  content: "\e9cc";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-fast_charging .path1:before {
+  content: "\e9cd";
+  color: rgb(0, 0, 0);
+}
+.razer-fast_charging .path2:before {
+  content: "\e9ce";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+.razer-fast_charging .path3:before {
+  content: "\e9cf";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+.razer-fast_charging .path4:before {
+  content: "\e9d0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-fast_charging .path5:before {
+  content: "\e9d1";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-custom .path1:before {
+  content: "\e996";
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.razer-custom .path2:before {
+  content: "\e997";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.razer-custom .path3:before {
+  content: "\e998";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.razer-custom .path4:before {
+  content: "\e999";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-custom .path5:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-custom .path6:before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-custom .path7:before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-custom .path8:before {
+  content: "\e99d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-custom .path9:before {
+  content: "\e99e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-chroma .path1:before {
+  content: "\e99f";
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-chroma .path2:before {
+  content: "\e9a0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-charging .path1:before {
+  content: "\e9a1";
+  color: rgb(0, 0, 0);
+}
+.razer-charging .path2:before {
+  content: "\e9a2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+.razer-charging .path3:before {
+  content: "\e9a3";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+.razer-charging .path4:before {
+  content: "\e9a4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-channel1:before {
+  content: "\e9a5";
+}
+.razer-channel2:before {
+  content: "\e9a6";
+}
+.razer-channel3:before {
+  content: "\e9a7";
+}
+.razer-channel4:before {
+  content: "\e9a8";
+}
+.razer-channel5:before {
+  content: "\e9a9";
+}
+.razer-channel6:before {
+  content: "\e9aa";
+}
+.razer-bw2013 .path1:before {
+  content: "\e990";
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-bw2013 .path2:before {
+  content: "\e991";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-backlight .path1:before {
+  content: "\e992";
+  color: rgb(0, 0, 0);
+}
+.razer-backlight .path2:before {
+  content: "\e993";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.razer-backlight .path3:before {
+  content: "\e994";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.razer-backlight .path4:before {
+  content: "\e995";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-record .path1:before {
+  content: "\e989";
+  color: rgb(0, 0, 0);
+}
+.razer-record .path2:before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: rgb(255, 0, 0);
+}
+.razer-tray:before {
+  content: "\e98b";
+}
+.razer-tray-recording .path1:before {
+  content: "\e98c";
+  color: rgb(255, 0, 0);
+}
+.razer-tray-recording .path2:before {
+  content: "\e98d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-tray-recording .path3:before {
+  content: "\e98e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-tray-recording .path4:before {
+  content: "\e98f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-mouse-fast .path1:before {
+  content: "\e983";
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-mouse-fast .path2:before {
+  content: "\e984";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-mouse-fast .path3:before {
+  content: "\e985";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-mouse-fast .path4:before {
+  content: "\e986";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-mouse-slow .path1:before {
+  content: "\e987";
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-mouse-slow .path2:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-macros:before {
+  content: "\e982";
+}
+.razer-effects .path1:before {
+  content: "\e96e";
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-effects .path2:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9915;
+}
+.razer-effects .path3:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9915;
+}
+.razer-effects .path4:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.razer-effects .path5:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.razer-effects .path6:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-details .path1:before {
+  content: "\e974";
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.razer-details .path2:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-details .path3:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.razer-details .path4:before {
+  content: "\e977";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-brightness .path1:before {
+  content: "\e978";
+  color: rgb(0, 0, 0);
+  opacity: 0.6912;
+}
+.razer-brightness .path2:before {
+  content: "\e979";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6912;
+}
+.razer-brightness .path3:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6912;
+}
+.razer-brightness .path4:before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5746;
+}
+.razer-brightness .path5:before {
+  content: "\e97c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5746;
+}
+.razer-brightness .path6:before {
+  content: "\e97d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2873;
+}
+.razer-brightness .path7:before {
+  content: "\e97e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2873;
+}
+.razer-brightness .path8:before {
+  content: "\e97f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2873;
+}
+.razer-brightness .path9:before {
+  content: "\e980";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.2873;
+}
+.razer-app:before {
+  content: "\e981";
+}
+.razer-static:before {
+  content: "\e96c";
+}
+.razer-wave:before {
+  content: "\e96d";
+}
+.razer-starlight .path1:before {
+  content: "\e966";
+  color: rgb(0, 0, 0);
+}
+.razer-starlight .path2:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-starlight .path3:before {
+  content: "\e968";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5020;
+}
+.razer-starlight .path4:before {
+  content: "\e969";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-starlight .path5:before {
+  content: "\e96a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.251;
+}
+.razer-starlight .path6:before {
+  content: "\e96b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-spectrum .path1:before {
+  content: "\e962";
+  color: rgb(0, 0, 0);
+}
+.razer-spectrum .path2:before {
+  content: "\e963";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-spectrum .path3:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.7403;
+}
+.razer-spectrum .path4:before {
+  content: "\e965";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-scan .path1:before {
+  content: "\e95d";
+  color: rgb(0, 0, 0);
+}
+.razer-scan .path2:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(0, 0, 255);
+}
+.razer-scan .path3:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-scan .path4:before {
+  content: "\e960";
+  margin-left: -1em;
+  color: rgb(0, 0, 255);
+  opacity: 0.4;
+}
+.razer-scan .path5:before {
+  content: "\e961";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.razer-ripple:before {
+  content: "\e95b";
+}
+.razer-reactive:before {
+  content: "\e95c";
+}
+.razer-pulsate .path1:before {
+  content: "\e94e";
+  color: rgb(0, 0, 0);
+}
+.razer-pulsate .path2:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-pulsate .path3:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+.razer-pulsate .path4:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+}
+.razer-off:before {
+  content: "\e952";
+}
+.razer-on .path1:before {
+  content: "\e953";
+  color: rgb(0, 0, 0);
+}
+.razer-on .path2:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-on .path3:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-on .path4:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-on .path5:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-on .path6:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-on .path7:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-on .path8:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.razer-matrix .path1:before {
+  content: "\e93b";
+  color: rgb(0, 0, 0);
+}
+.razer-matrix .path2:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-matrix .path3:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-matrix .path4:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-matrix .path5:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-matrix .path6:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+.razer-matrix .path7:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+.razer-matrix .path8:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-matrix .path9:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-matrix .path10:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+.razer-matrix .path11:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+.razer-matrix .path12:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.razer-matrix .path13:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.razer-matrix .path14:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+.razer-matrix .path15:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+.razer-matrix .path16:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.razer-matrix .path17:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.razer-matrix .path18:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.razer-matrix .path19:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.razer-idle:before {
+  content: "\e93a";
+}
+.razer-breath:before {
+  content: "\e939";
+}
+.razer-blink:before {
+  content: "\e92f";
+}
+.razer-strip:before {
+  content: "\e938";
+}
+.razer-audio .path1:before {
+  content: "\e932";
+  color: rgb(0, 0, 0);
+}
+.razer-audio .path2:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-audio .path3:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-audio .path4:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.razer-audio .path5:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(26, 26, 26);
+  opacity: 0.6;
+}
+.razer-audio .path6:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(26, 26, 26);
+  opacity: 0.6;
+}
+.razer-ram:before {
+  content: "\e931";
+}
+.razer-unrecognised:before {
+  content: "\e930";
+}
+.razer-mousemat .path1:before {
+  content: "\e92a";
+  color: rgb(0, 0, 0);
+}
+.razer-mousemat .path2:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-mousemat .path3:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-mousemat .path4:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-mousemat .path5:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9978;
+}
+.razer-mouse .path1:before {
+  content: "\e924";
+  color: rgb(0, 0, 0);
+}
+.razer-mouse .path2:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-mouse .path3:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-mouse .path4:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-mouse .path5:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-mouse .path6:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9978;
+}
+.razer-keypad .path1:before {
+  content: "\e917";
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path3:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path4:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path5:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path6:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path7:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path8:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path9:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path10:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path11:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path12:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-keypad .path13:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9978;
+}
+.razer-keyboard:before {
+  content: "\e916";
+}
+.razer-headset:before {
+  content: "\e915";
+}
+.razer-gpu:before {
+  content: "\e914";
+}
+.razer-fan:before {
+  content: "\e913";
+}
+.razer-accessory .path1:before {
+  content: "\e900";
+  color: rgb(0, 0, 0);
+}
+.razer-accessory .path2:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-accessory .path3:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-accessory .path4:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-accessory .path5:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-accessory .path6:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9978;
+}
+.razer-accessory .path7:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-accessory .path8:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-bulb:before {
+  content: "\e907";
+}
+.razer-charger .path1:before {
+  content: "\e908";
+  color: rgb(0, 0, 0);
+}
+.razer-charger .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-charger .path3:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-charger .path4:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9978;
+}
+.razer-aio .path1:before {
+  content: "\e901";
+  color: rgb(0, 0, 0);
+}
+.razer-aio .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-aio .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.razer-aio .path4:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9978;
+}
+.razer-aio .path5:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9978;
+}
+.razer-aio .path6:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.9978;
+}

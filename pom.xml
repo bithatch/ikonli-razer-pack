@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>uk.co.bithatch</groupId>
+
+	<name>Ikonli Razer Pack</name>
+	<description>An Ikonli pack for Razer devices.</description>
+	<artifactId>ikonli-razer-pack</artifactId>
+	<version>0.1-SNAPSHOT</version>
+
+	<url>https://github.com/bithatch/ikonli-razer-pack</url>
+
+	<!-- Output to jar format -->
+	<packaging>jar</packaging>
+
+	<properties>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<url>https://github.com/bithatch/ikonli-razer-pack</url>
+		<connection>scm:git:https://github.com/bithatch/ikonli-razer-pack.git</connection>
+		<developerConnection>scm:git:https://github.com/bithatch/ikonli-razer-pack.git</developerConnection>
+	</scm>
+	<developers>
+		<developer>
+			<id>brett</id>
+			<name>Brett Smith</name>
+			<email>tanktarta@gmail.com</email>
+		</developer>
+	</developers>
+	<inceptionYear>2022</inceptionYear>
+	<organization>
+		<name>Bithatch</name>
+		<url>http://bithatch.co.uk</url>
+	</organization>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh-bithatch</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh-bithatch</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+
+	<build>
+		<sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
+		<resources>
+			<resource>
+				<directory>${project.basedir}/src/main/resources</directory>
+			</resource>
+		</resources>
+		<!-- <testSourceDirectory>testing</testSourceDirectory> -->
+		<plugins>
+
+			<!-- Source Code Plugin -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.0.1</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- JavaDoc Plugin -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.2.0</version>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<!-- <skip>true</skip> -->
+					<encoding>UTF-8</encoding>
+					<excludePackageNames>**.impl.*</excludePackageNames>
+					<!-- https://stackoverflow.com/questions/49472783/maven-is-unable-to-find-javadoc-command -->
+					<javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
+
+					<!-- https://bugs.openjdk.java.net/browse/JDK-8212233 -->
+					<source>8</source>
+				</configuration>
+			</plugin>
+
+			<!-- Maven Compiler Plugin -->
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+				<version>1.6</version>
+				<executions>
+					<execution>
+						<id>sign-artifacts</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>sign</goal>
+						</goals>
+						<configuration>
+							<gpgArguments>
+								<arg>--pinentry-mode</arg>
+								<arg>loopback</arg>
+							</gpgArguments>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.sonatype.plugins</groupId>
+				<artifactId>nexus-staging-maven-plugin</artifactId>
+				<version>1.6.8</version>
+				<extensions>true</extensions>
+				<configuration>
+					<serverId>ossrh-bithatch</serverId>
+					<nexusUrl>https://oss.sonatype.org/</nexusUrl>
+					<autoReleaseAfterClose>true</autoReleaseAfterClose>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>org.kordamp.ikonli</groupId>
+			<artifactId>ikonli-core</artifactId>
+			<version>12.0.0</version>
+		</dependency>
+        <dependency>
+            <groupId>org.kordamp.jipsy</groupId>
+            <artifactId>jipsy-annotations</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+	</dependencies>
+</project>
+
