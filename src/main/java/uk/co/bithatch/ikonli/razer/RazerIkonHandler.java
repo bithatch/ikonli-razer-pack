@@ -34,11 +34,7 @@ public class RazerIkonHandler extends AbstractIkonHandler {
 
     @Override
     public boolean supports(String description) {
-        var s = description != null && description.startsWith("razer-");
-        if(s) {
-        	System.out.println("brk!");
-        }
-		return s;
+        return description != null && description.startsWith("razer-");
     }
 
     @Override

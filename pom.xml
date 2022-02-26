@@ -9,7 +9,7 @@
 	<name>Ikonli Razer Pack</name>
 	<description>An Ikonli pack for Razer devices.</description>
 	<artifactId>ikonli-razer-pack</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<url>https://github.com/bithatch/ikonli-razer-pack</url>
 
