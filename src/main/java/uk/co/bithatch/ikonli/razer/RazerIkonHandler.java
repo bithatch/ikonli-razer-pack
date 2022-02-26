@@ -30,11 +30,15 @@ import java.net.URL;
  */
 @ServiceProviderFor(IkonHandler.class)
 public class RazerIkonHandler extends AbstractIkonHandler {
-    private static final String FONT_RESOURCE = "/META-INF/resources/razer/0.0/fonts/Razer-Icons.ttf";
+    private static final String FONT_RESOURCE = "/META-INF/resources/razer/0.0/fonts/Razer.ttf";
 
     @Override
     public boolean supports(String description) {
-        return description != null && description.startsWith("icm-");
+        var s = description != null && description.startsWith("razer-");
+        if(s) {
+        	System.out.println("brk!");
+        }
+		return s;
     }
 
     @Override

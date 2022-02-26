@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Razer-Icons';
-  src:  url('fonts/Razer-Icons.eot?ymc99q');
-  src:  url('fonts/Razer-Icons.eot?ymc99q#iefix') format('embedded-opentype'),
-    url('fonts/Razer-Icons.ttf?ymc99q') format('truetype'),
-    url('fonts/Razer-Icons.woff?ymc99q') format('woff'),
-    url('fonts/Razer-Icons.svg?ymc99q#Razer-Icons') format('svg');
+  font-family: 'Razer';
+  src:  url('fonts/Razer.eot?5midlg');
+  src:  url('fonts/Razer.eot?5midlg#iefix') format('embedded-opentype'),
+    url('fonts/Razer.ttf?5midlg') format('truetype'),
+    url('fonts/Razer.woff?5midlg') format('woff'),
+    url('fonts/Razer.svg?5midlg#Razer') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 
 [class^="razer-"], [class*=" razer-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Razer-Icons' !important;
+  font-family: 'Razer' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
