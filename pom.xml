@@ -9,7 +9,7 @@
 	<name>Ikonli Razer Pack</name>
 	<description>An Ikonli pack for Razer devices.</description>
 	<artifactId>ikonli-razer-pack</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<url>https://github.com/bithatch/ikonli-razer-pack</url>
 
@@ -162,7 +162,7 @@
 		<dependency>
 			<groupId>org.kordamp.ikonli</groupId>
 			<artifactId>ikonli-core</artifactId>
-			<version>12.0.0</version>
+			<version>12.3.0</version>
 		</dependency>
         <dependency>
             <groupId>org.kordamp.jipsy</groupId>

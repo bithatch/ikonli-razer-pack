@@ -49,7 +49,7 @@ public enum Razer implements Ikon {
 	RAZER_MOUSE_SLOW("razer-mouse-slow", '\ue987'),
 	RAZER_MACROS("razer-macros", '\ue982'),
 	RAZER_EFFECTS("razer-effects", '\ue96e'),
-	RAZER_DETAILS("razer-details", '\ue972'),
+	RAZER_DETAILS("razer-details", '\ue974'),
 	RAZER_BRIGHTNESS("razer-brightness", '\ue978'),
 	RAZER_APP("razer-app", '\ue981'),
 	RAZER_STATIC("razer-static", '\ue96c'),
@@ -77,10 +77,11 @@ public enum Razer implements Ikon {
 	RAZER_HEADSET("razer-headset", '\ue915'),
 	RAZER_GPU("razer-gpu", '\ue914'),
 	RAZER_FAN("razer-fan", '\ue913'),
-	RAZER_ACCESSORY("razer-accesory", '\ue900'),
+	RAZER_ACCESSORY("razer-accessory", '\ue900'),
 	RAZER_BULB("razer-bulb", '\ue907'),
 	RAZER_CHARGER("razer-charger", '\ue908'),
 	RAZER_AIO("razer-aio", '\ue901'),
+	RAZER_CORE("razer-core", '\ue90c'),
 	;
 
     public static Razer findByDescription(String description) {
